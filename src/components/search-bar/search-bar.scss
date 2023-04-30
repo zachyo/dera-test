@@ -1,0 +1,32 @@
+.search-bar {
+  border: 2px solid blue;
+  width: 30rem;
+  margin: 2rem auto 1rem auto;
+  position: relative;
+  background: #f8f8ff;
+  border-radius: 5px;
+
+  input {
+    width: 27rem;
+    padding: 0.7rem 0;
+    margin-left: 2rem;
+    background: transparent;
+    border: none;
+    &:focus {
+      outline: none;
+    }
+  }
+  img {
+    position: absolute;
+    top: 0.4rem;
+    // margin-top: -9rem;
+  }
+}
+@media (max-width : 768px) {
+  .search-bar {
+    width: 20.6rem;
+    input {
+      width: 18rem;
+    }
+  }
+}

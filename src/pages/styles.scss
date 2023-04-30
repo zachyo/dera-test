@@ -1,0 +1,24 @@
+.homepage {
+    padding: 0 1rem;
+}
+table {
+//   width: 90rem;
+width: 80%;
+  text-align: left;
+  margin: 3rem auto;
+//   padding: 0 3rem;
+}
+table th {
+  padding: 1rem;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 140%;
+    width: 20%;
+
+}
+table td {
+    padding-left: 1rem;
+}
+table tr:first-child {
+  background: #f8f8ff;
+}
